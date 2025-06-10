@@ -8,8 +8,8 @@ import { Route } from "./+types/jobs-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "Jobs | wemake" },
-    { name: "description", content: "Find your dream job at wemake" },
+    { title: "Jobs | connectus" },
+    { name: "description", content: "Find your dream job at connectus" },
   ];
 };
 

@@ -4,7 +4,7 @@ import { Button } from "~/common/components/ui/button";
 import { Route } from "./+types/job-page";
 
 export const meta: Route.MetaFunction = () => {
-  return [{ title: "Job Details | wemake" }];
+  return [{ title: "Job Details | connectus" }];
 };
 
 export default function JobPage() {

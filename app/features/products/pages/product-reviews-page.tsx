@@ -6,7 +6,7 @@ import { ReviewCard } from "../components/review-card";
 
 export function meta() {
   return [
-    { title: "Product Reviews | wemake" },
+    { title: "Product Reviews | connectus" },
     { name: "description", content: "Read and write product reviews" },
   ];
 }

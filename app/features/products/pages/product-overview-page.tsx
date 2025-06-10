@@ -2,7 +2,7 @@ import { Route } from "./+types/product-overview-page";
 
 export function meta() {
   return [
-    { title: "Product Overview | wemake" },
+    { title: "Product Overview | connectus" },
     { name: "description", content: "View product details and information" },
   ];
 }

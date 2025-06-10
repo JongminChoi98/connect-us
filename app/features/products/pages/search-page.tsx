@@ -9,7 +9,7 @@ import { Route } from "./+types/search-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "Search Products | wemake" },
+    { title: "Search Products | connectus" },
     { name: "description", content: "Search for products" },
   ];
 };

@@ -21,7 +21,7 @@ export const meta: Route.MetaFunction = ({ params }) => {
     {
       title: `Best of ${date.toLocaleString({
         year: "numeric",
-      })} | wemake`,
+      })} | connectus`,
     },
   ];
 };

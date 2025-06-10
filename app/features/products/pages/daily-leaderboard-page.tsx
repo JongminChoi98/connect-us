@@ -25,7 +25,7 @@ export const meta: Route.MetaFunction = ({ params }) => {
     {
       title: `The best products of ${date.toLocaleString(
         DateTime.DATE_MED
-      )} | wemake`,
+      )} | connectus`,
     },
   ];
 };

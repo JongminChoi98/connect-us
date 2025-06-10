@@ -4,7 +4,7 @@ import { Route } from "./+types/ideas-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "IdeasGPT | wemake" },
+    { title: "IdeasGPT | connectus" },
     { name: "description", content: "Find ideas for your next project" },
   ];
 };

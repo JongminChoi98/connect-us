@@ -6,7 +6,7 @@ import { Route } from "./+types/leaderboard-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "Leaderboards | wemake" },
+    { title: "Leaderboards | connectus" },
     { name: "description", content: "Top products leaderboard" },
   ];
 };
@@ -16,7 +16,7 @@ export default function LeaderboardPage() {
     <div className="space-y-20">
       <Hero
         title="Leaderboards"
-        subtitle="The most popular products on wemake"
+        subtitle="The most popular products on connectus"
       />
       <div className="grid grid-cols-3 gap-4">
         <div>
@@ -24,7 +24,7 @@ export default function LeaderboardPage() {
             Daily Leaderboard
           </h2>
           <p className="text-xl font-light text-foreground">
-            The most popular products on wemake by day.
+            The most popular products on connectus by day.
           </p>
         </div>
         {Array.from({ length: 7 }).map((_, index) => (
@@ -50,7 +50,7 @@ export default function LeaderboardPage() {
             Weekly Leaderboard
           </h2>
           <p className="text-xl font-light text-foreground">
-            The most popular products on wemake by week.
+            The most popular products on connectus by week.
           </p>
         </div>
         {Array.from({ length: 7 }).map((_, index) => (
@@ -76,7 +76,7 @@ export default function LeaderboardPage() {
             Monthly Leaderboard
           </h2>
           <p className="text-xl font-light text-foreground">
-            The most popular products on wemake by month.
+            The most popular products on connectus by month.
           </p>
         </div>
         {Array.from({ length: 7 }).map((_, index) => (
@@ -102,7 +102,7 @@ export default function LeaderboardPage() {
             Yearly Leaderboard
           </h2>
           <p className="text-xl font-light text-foreground">
-            The most popular products on wemake by year.
+            The most popular products on connectus by year.
           </p>
         </div>
         {Array.from({ length: 7 }).map((_, index) => (

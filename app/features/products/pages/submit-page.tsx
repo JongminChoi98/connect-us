@@ -10,7 +10,7 @@ import { Route } from "./+types/submit-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "Submit Product | wemake" },
+    { title: "Submit Product | connectus" },
     { name: "description", content: "Submit your product" },
   ];
 };

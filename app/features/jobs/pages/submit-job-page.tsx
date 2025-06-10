@@ -8,7 +8,7 @@ import { Route } from "./+types/submit-job-page";
 
 export const meta: Route.MetaFunction = () => {
   return [
-    { title: "Post a Job | wemake" },
+    { title: "Post a Job | connectus" },
     {
       name: "description",
       content: "Reach out to the best developers in the world",
@@ -98,7 +98,7 @@ export default function SubmitJobPage() {
             maxLength={40}
             type="text"
             required
-            placeholder="i.e wemake"
+            placeholder="i.e connectus"
           />
           <InputPair
             id="companyLogoUrl"
@@ -107,7 +107,7 @@ export default function SubmitJobPage() {
             name="companyLogoUrl"
             type="url"
             required
-            placeholder="i.e https://wemake.services/logo.png"
+            placeholder="i.e https://connectus.services/logo.png"
           />
           <InputPair
             id="companyLocation"
@@ -127,7 +127,7 @@ export default function SubmitJobPage() {
             maxLength={40}
             type="url"
             required
-            placeholder="i.e https://wemake.services/apply"
+            placeholder="i.e https://connectus.services/apply"
           />
           <SelectPair
             label="Job Type"

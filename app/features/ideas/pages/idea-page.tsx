@@ -4,7 +4,7 @@ import { Button } from "~/common/components/ui/button";
 
 export const meta = () => {
   return [
-    { title: `IdeasGPT | wemake` },
+    { title: `IdeasGPT | connectus` },
     { name: "description", content: "Find ideas for your next project" },
   ];
 };

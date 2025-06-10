@@ -25,7 +25,7 @@ export const meta: Route.MetaFunction = ({ params }) => {
         .startOf("week")
         .toLocaleString(DateTime.DATE_SHORT)} - ${date
         .endOf("week")
-        .toLocaleString(DateTime.DATE_SHORT)} | wemake`,
+        .toLocaleString(DateTime.DATE_SHORT)} | connectus`,
     },
   ];
 };
