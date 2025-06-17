@@ -1,0 +1,16 @@
+import client from "supa-client";
+
+export const getTopics = async () => {
+  const { data, error } = await client.from("topics").select("name, slug");
+  if (error) throw new Error(error.message);
+  return data;
+};
+
+export const getPosts = async () => {
+  const { data, error } = await client
+    .from("community_post_list_view")
+    .select(`*`);
+  console.log(error);
+  if (error) throw new Error(error.message);
+  return data;
+};
